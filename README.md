@@ -20,6 +20,7 @@ A small description of the required conversion:
 For detailed information, please check [the subject of this project](https://github.com/BurcuBulakBozkurt/ft_printf_42/blob/main/Prinft_subject.pdf).
 
 
-In addition, since I used some of the functions from libft in that project, allows I copied its sources and its associated Makefile in a libft folder with its associated Makefile. Because our project’s Makefile must compile the library by using its Makefile, then compile the project.
+In addition, since I used some of the functions from libft in that project, I copied its sources and its associated Makefile in a libft folder with its associated Makefile. Because our project’s Makefile must compile the library by using its Makefile, then compile the project.
+
 ### Makefile
 - [Makefile](https://github.com/BurcuBulakBozkurt/ft_printf_42/blob/main/Makefile)
