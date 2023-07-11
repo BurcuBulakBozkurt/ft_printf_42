@@ -28,7 +28,6 @@ int		ft_hex_len(unsigned int num);
 void	ft_put_ptr(unsigned long long int ptr);
 int		ft_print_str(char *str);
 int		ft_print_chr(int c);
-int		ft_putstr(char *str);
 int		ft_print_num(int n);
 char	*ft_uitoa(unsigned int n);
 int		ft_print_unsigned(unsigned int n);
