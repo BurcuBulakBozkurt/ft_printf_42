@@ -18,26 +18,11 @@ int	ft_print_chr(int c)
 	return (1);
 }
 
-int	ft_putstr(char *str)
+int	ft_print_str(char *str)
 {
 	if (str == NULL)
 		return (write(1, "(null)", 6));
 	return (write(1, str, ft_strlen(str)));
-}
-
-int	ft_print_str(char *str)
-{
-	int	i;
-
-	i = 0;
-	if (str == NULL)
-		return (write(1, "(null)", 6));
-	while (str[i])
-	{
-		write(1, &str[i], 1);
-		i++;
-	}
-	return (i);
 }
 
 int	ft_print_num(int n)
